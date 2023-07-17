@@ -6,6 +6,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm ci`
+
+Download projects dependencies the app in the development mode.\
+
+You may also see any lint errors in the console.
+
 ### `npm start`
 
 Runs the app in the development mode.\
