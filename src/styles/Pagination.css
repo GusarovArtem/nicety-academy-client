@@ -1,0 +1,15 @@
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.photo {
+  flex: 0 0 calc(33.33% - 10px);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.photo img {
+  max-width: 100%;
+}

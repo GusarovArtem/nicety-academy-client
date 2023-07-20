@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 import UserService from "../services/user.service";
+import Pagination from "./pagination.component";
 
 export default class Home extends Component {
   constructor(props) {
@@ -35,6 +36,7 @@ export default class Home extends Component {
         <header className="jumbotron">
           <h3>{this.state.content}</h3>
         </header>
+        <Pagination></Pagination>
       </div>
     );
   }
