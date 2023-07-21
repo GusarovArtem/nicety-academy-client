@@ -13,11 +13,14 @@ import Profile from "./components/profile.component";
 import BoardUser from "./components/board-user.component";
 import BoardModerator from "./components/board-moderator.component";
 import BoardAdmin from "./components/board-admin.component";
-import LoginPretty from "./components/login-pretty.component";
+import RegForm from "./components/registration-form/registration-form";
+
 
 
 // import AuthVerify from "./common/auth-verify";
 import EventBus from "./common/EventBus";
+import {Screen} from "./components/registration-form/registration-form";
+
 
 class App extends Component {
   constructor(props) {
@@ -136,7 +139,7 @@ class App extends Component {
             <Route path="/" element={<Home />} />
             <Route path="/home" element={<Home />} />
             <Route path="/login" element={<Login />} />
-            <Route path="/login-pretty" element={<LoginPretty />} />
+            <Route path="/screen" element={<RegFrom />} />
             <Route path="/register" element={<Register />} />
             <Route path="/profile" element={<Profile />} />
             <Route path="/user" element={<BoardUser />} />
