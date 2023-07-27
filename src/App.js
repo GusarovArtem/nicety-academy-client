@@ -15,6 +15,8 @@ import BoardAdmin from "./components/board-admin.component";
 
 // import AuthVerify from "./common/auth-verify";
 import EventBus from "./common/EventBus";
+import {MainPage} from "./pages/MainPage";
+import {Footer} from "./components/footer.component";
 
 class App extends Component {
   constructor(props) {
@@ -128,7 +130,7 @@ class App extends Component {
           )}
         </nav>
 
-        <div className="container mt-3">
+        <div >
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/home" element={<Home />} />
@@ -138,6 +140,8 @@ class App extends Component {
             <Route path="/user" element={<BoardUser />} />
             <Route path="/moderator" element={<BoardModerator />} />
             <Route path="/admin" element={<BoardAdmin />} />
+            <Route path="/main" element={<MainPage/>}/>
+            <Route path="/footer" element={<Footer/>}/>
           </Routes>
         </div>
 
