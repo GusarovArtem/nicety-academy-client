@@ -1,8 +1,8 @@
 import React from "react";
-import { Card } from "../components/Card";
-import { Footer } from "../components/Footer";
-import { Header } from "../components/Header";
-import "../assets/style.css";
+import { Card } from "../components/card.component";
+import { Footer } from "../components/footer.component";
+import { Header } from "../components/header.component";
+import "../styles/catalog.css";
 
 export const Catalog = () => {
     return (

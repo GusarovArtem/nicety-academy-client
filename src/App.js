@@ -7,16 +7,17 @@ import AuthService from "./services/auth.service";
 
 import Login from "./components/login.component";
 import Register from "./components/register.component";
-import Home from "./components/home.component";
 import Profile from "./components/profile.component";
 import BoardUser from "./components/board-user.component";
 import BoardModerator from "./components/board-moderator.component";
 import BoardAdmin from "./components/board-admin.component";
+import Home from "./components/home.component"
+import {MainPage} from "./pages/MainPage"
 
 // import AuthVerify from "./common/auth-verify";
 import EventBus from "./common/EventBus";
-import {MainPage} from "./pages/MainPage";
 import {Footer} from "./components/footer.component";
+import {Catalog} from "./pages/Catalog";
 
 class App extends Component {
   constructor(props) {
@@ -130,18 +131,18 @@ class App extends Component {
           )}
         </nav>
 
-        <div >
+        <div className="body" >
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/home" element={<Home />} />
+            <Route path="/catalog" element={<Catalog/>}/>
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
             <Route path="/profile" element={<Profile />} />
             <Route path="/user" element={<BoardUser />} />
             <Route path="/moderator" element={<BoardModerator />} />
             <Route path="/admin" element={<BoardAdmin />} />
-            <Route path="/main" element={<MainPage/>}/>
             <Route path="/footer" element={<Footer/>}/>
+            <Route path="/main" element={<MainPage/>}/>
           </Routes>
         </div>
 

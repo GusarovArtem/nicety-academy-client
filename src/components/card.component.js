@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/style.css";
+import "../styles/card.css";
 import Grommet from  "../img/grommet-icons-waypoint.svg"
 import Time from  "../img/ri-time-fill.svg"
 import Simple from  "../img/simple-icons-spring.svg"
@@ -17,16 +17,14 @@ export const Card = ({ className }) => {
                 </div>
                 <div className="lorem-ipsum-dolor-wrapper">
                     <p className="lorem-ipsum-dolor">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ligula, vehicula a placerat a,
-                        fermentum et arcu.
+                        Lorem ipsum dolor sit amet,<br/> consectetur adipiscing elit. <br/> Aliquam arcu ligula, vehicula a <br/> placerat a, fermentum et arcu.
                     </p>
                 </div>
                 <div className="frame-2">
-                    <div className="frame-3">
+
                         <div className="frame-4">
                             <img className="img" alt="Ph stack" src={Stack} />
                             <div className="text-wrapper">Java</div>
-                        </div>
                     </div>
                     <div className="frame-5">
                         <img className="img" alt="Mingcute device fill" src={Device} />

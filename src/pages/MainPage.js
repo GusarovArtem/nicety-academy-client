@@ -3,7 +3,7 @@ import { Card } from "../components/card.component";
 import { Comment } from "../components/comment.component";
 import { Footer } from "../components/footer.component";
 import { Header } from "../components/header.component";
-import "../styles/style.css";
+import "../styles/main.css";
 import Photo from "../img/image_2023-07-24_18-15-16.png"
 import Photo5 from "../img/image_2023-07-24_18-15-33.png"
 import Photo2 from "../img/image_2023-07-24_18-15-39.png"
@@ -11,6 +11,7 @@ import Photo3 from "../img/image_2023-07-24_18-15-46.png"
 import Photo4 from "../img/image_2023-07-24_18-15-53.png"
 import Photo6 from "../img/image_2023-07-24_18-25-14.png"
 import Arrow from "../img/image_2023-07-24_18-23-42.png"
+import Vector3 from  "../img/vector-3.svg"
 
 
 
@@ -31,12 +32,11 @@ export const MainPage = () => {
                 <div className="text-block-2">
                     <h1 className="practice-code-by">
                         <span className="span">Practice code by doing</span>
-                        <span className="text-wrapper-8">&nbsp;</span>
                         <span className="text-wrapper-9">Projects</span>
                     </h1>
                     <p className="text-wrapper-10">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ligula, vehicula a placerat a,
-                        fermentum et arcu. Vestibulum vitae dolor arcu.
+                        fermentum et arcu. Vestibulum <br/> vitae dolor arcu.
                     </p>
                     <div className="explore-projects">
                         <div className="text-wrapper-11">Explore Projects</div>
@@ -45,7 +45,7 @@ export const MainPage = () => {
                 <img className="photo" alt="Photo" src={Photo} />
             </div>
             <div className="projects-gallery">
-                <img className="vector-3" alt="Vector" src="vector-1.svg" />
+                <img className="vector-3" alt="Vector" src={Vector3} />
                 <div className="text-wrapper-12">Projects Gallery</div>
                 <div className="catalog">
                     <div className="button-free">
@@ -71,7 +71,7 @@ export const MainPage = () => {
                     />
                     <Card
                         carbonSkillLevel="carbon-skill-level-2.png"
-                        className="card-4"
+                        className="card-instance"
                         grommetIcons="grommet-icons-waypoint-3.svg"
                         materialSymbols="material-symbols-attach-money-3.svg"
                         mingcuteDeviceFill="mingcute-device-fill-2.png"
@@ -82,7 +82,7 @@ export const MainPage = () => {
                     />
                     <Card
                         carbonSkillLevel="carbon-skill-level-3.png"
-                        className="card-5"
+                        className="card-instance"
                         grommetIcons="grommet-icons-waypoint-4.svg"
                         materialSymbols="material-symbols-attach-money-4.svg"
                         mingcuteDeviceFill="mingcute-device-fill-3.png"
@@ -108,14 +108,14 @@ export const MainPage = () => {
                             <div className="text-wrapper-16">1/ Read Lection</div>
                             <div className="p-wrapper-2">
                                 <p className="text-wrapper-17">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ligula, vehicula a placerat a,
-                                    fermentum et arcu. Vestibulum vitae dolor arcu. Duis auctor nisl nunc, quis euismod lorem porttitor
-                                    eu. Quisque aliquet dui a magna facilisis pulvinar. Quisque bibendum rutrum tincidunt. Class aptent
-                                    taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin sodales semper
-                                    sollicitudin. Quisque elit diam, finibus sit amet diam vitae, pretium rutrum elit. Morbi rhoncus dolor
-                                    ac tincidunt rhoncus. In porta convallis finibus. Mauris ut dolor at nibh varius interdum quis at
-                                    turpis. Nam id porttitor urna. Aliquam a neque in mi egestas malesuada. Pellentesque in auctor tortor,
-                                    quis convallis ipsum. Pellentesque ut est venenatis, eleifend neque in, finibus dolor.
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu <br/>ligula, vehicula a placerat a,
+                                    fermentum et arcu. Vestibulum vitae dolor <br/> arcu. Duis auctor nisl nunc, quis euismod lorem porttitor
+                                    eu. Quisque aliquet  <br/> dui a magna facilisis pulvinar. Quisque bibendum rutrum tincidunt. Class  <br/> aptent
+                                    taciti sociosqu ad litora torquent per conubia nostra, per inceptos  <br/> himenaeos. Proin sodales semper
+                                    sollicitudin. Quisque elit diam, finibus sit  <br/> amet diam vitae, pretium rutrum elit. Morbi rhoncus dolor
+                                    ac tincidunt  <br/> rhoncus. In porta convallis finibus. Mauris ut dolor at nibh varius interdum  <br/>quis at
+                                    turpis. Nam id porttitor urna. Aliquam a neque in mi egestas  <br/>malesuada. Pellentesque in auctor tortor,
+                                    quis convallis ipsum. <br/> Pellentesque ut est venenatis, eleifend neque in, finibus dolor.
                                 </p>
                             </div>
                             <div className="text">
@@ -130,8 +130,8 @@ export const MainPage = () => {
                             <p className="text-wrapper-16">2/ Practice code with our help</p>
                             <div className="p-wrapper-2">
                                 <p className="text-wrapper-17">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ligula, vehicula a placerat a,
-                                    fermentum et arcu. Vestibulum vitae dolor arcu. Duis auctor nisl nunc, quis euismod lorem porttitor
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam <br/> arcu ligula, vehicula a placerat a,
+                                    fermentum et arcu. Vestibulum  <br/>vitae dolor arcu. Duis auctor nisl nunc, quis euismod lorem <br/>porttitor
                                     eu. Quisque aliquet dui a magna facilisis pulvinar.
                                 </p>
                             </div>
@@ -145,11 +145,11 @@ export const MainPage = () => {
                             <div className="text-wrapper-16">3/ Discard the solution</div>
                             <div className="p-wrapper-2">
                                 <p className="text-wrapper-17">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ligula, vehicula a placerat a,
-                                    fermentum et arcu. Vestibulum vitae dolor arcu. Duis auctor nisl nunc, quis euismod lorem porttitor
-                                    eu. Quisque aliquet dui a magna facilisis pulvinar. Quisque bibendum rutrum tincidunt. Class aptent
-                                    taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin sodales semper
-                                    sollicitudin. Quisque elit diam, finibus sit amet diam vitae, pretium rutrum elit.
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/> Aliquam arcu ligula, vehicula a placerat a,
+                                    fermentum et <br/>arcu. Vestibulum vitae dolor arcu. Duis auctor nisl nunc, quis<br/> euismod lorem porttitor
+                                    eu. Quisque aliquet dui a magna<br/> facilisis pulvinar. Quisque bibendum rutrum tincidunt. Class<br/> aptent
+                                    taciti sociosqu ad litora torquent per conubia nostra,<br/> per inceptos himenaeos. Proin sodales semper
+                                    sollicitudin. <br/>Quisque elit diam, finibus sit amet diam vitae, pretium<br/> rutrum elit.
                                 </p>
                             </div>
                             <div className="text">
@@ -167,12 +167,12 @@ export const MainPage = () => {
                             <p className="text-wrapper-16">Review your code with persons</p>
                             <div className="p-wrapper-2">
                                 <p className="text-wrapper-17">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ligula, vehicula a placerat a,
-                                    fermentum et arcu. Vestibulum vitae dolor arcu. Duis auctor nisl nunc, quis euismod lorem porttitor
-                                    eu. Quisque aliquet dui a magna facilisis pulvinar. Quisque bibendum rutrum tincidunt. Class aptent
-                                    taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin sodales semper
-                                    sollicitudin. Quisque elit diam, finibus sit amet diam vitae, pretium rutrum elit. Morbi rhoncus dolor
-                                    ac tincidunt rhoncus. In porta convallis finibus. Mauris ut dolor at nibh varius interdum quis at
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam<br/> arcu ligula, vehicula a placerat a,
+                                    fermentum et arcu. Vestibulum <br/>vitae dolor arcu. Duis auctor nisl nunc, quis euismod lorem porttitor<br/>
+                                    eu. Quisque aliquet dui a magna facilisis pulvinar. Quisque <br/> bibendum rutrum tincidunt. Class aptent
+                                    taciti sociosqu ad litora <br/>torquent per conubia nostra, per inceptos himenaeos. Proin <br/>sodales semper
+                                    sollicitudin. Quisque elit diam, finibus sit amet<br/> diam vitae, pretium rutrum elit. Morbi rhoncus dolor
+                                    ac tincidunt<br/> rhoncus. In porta convallis finibus. Mauris ut dolor at nibh varius<br/> interdum quis at
                                     turpis. Nam id porttitor urna.
                                 </p>
                             </div>
@@ -197,23 +197,25 @@ export const MainPage = () => {
                     <img className="arrow-photo" alt="Arrow photo" src={Arrow} />
                 </div>
             </div>
-            <div className="join-us-block">
-                <div className="join-us">
-                    <div className="text-block-4">
-                        <div className="text-wrapper-16">Join over 500’000 students</div>
-                        <div className="p-wrapper-2">
-                            <p className="text-wrapper-19">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ligula, vehicula a placerat a,
-                                fermentum et arcu. Vestibulum vitae dolor arcu. Duis auctor nisl nunc, quis euismod lorem porttitor eu.
-                                Quisque aliquet dui a magna facilisis pulvinar. Quisque bibendum rutrum tincidunt. Class aptent taciti
-                                sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-                            </p>
+            <div className="join-us-div">
+                <div className="join-us-block">
+                    <div className="join-us">
+                        <div className="text-block-4">
+                            <div className="text-wrapper-16">Join over 500’000 students</div>
+                            <div className="p-wrapper-2">
+                                <p className="text-wrapper-19">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ligula, vehicula a placerat a,
+                                    fermentum et arcu. Vestibulum vitae dolor arcu. Duis auctor nisl nunc, quis euismod lorem porttitor eu.
+                                    Quisque aliquet dui a magna facilisis pulvinar. Quisque bibendum rutrum tincidunt. Class aptent taciti
+                                    sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                                </p>
+                            </div>
+                            <div className="button">
+                                <div className="text-wrapper-11">Sign Up for free</div>
+                            </div>
                         </div>
-                        <div className="button">
-                            <div className="text-wrapper-11">Sign Up for free</div>
-                        </div>
+                        <img className="photo-6" alt="Photo" src={Photo6} />
                     </div>
-                    <img className="photo-6" alt="Photo" src={Photo6} />
                 </div>
             </div>
             <Footer
@@ -225,3 +227,5 @@ export const MainPage = () => {
         </div>
     );
 };
+export default class Main {
+}

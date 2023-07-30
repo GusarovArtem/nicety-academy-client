@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/style.css";
+import "../styles/comment.css";
 
 export const Comment = ({ className }) => {
     return (
@@ -12,9 +12,9 @@ export const Comment = ({ className }) => {
             </div>
             <div className="lorem-ipsum-dolor-wrapper">
                 <p className="lorem-ipsum-dolor">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu ligula, vehicula a placerat a, fermentum
-                    et arcu. Vestibulum vitae dolor arcu. Duis auctor nisl nunc, quis euismod lorem porttitor eu. Quisque aliquet
-                    dui a magna facilisis pulvinar. Quisque bibendum rutrum tincidunt.
+                    Lorem ipsum dolor sit amet,<br/> consectetur adipiscing elit.<br/> Aliquam arcu ligula, vehicula<br/>  a placerat a, fermentum
+                    et <br/>arcu. Vestibulum vitae dolor<br/> arcu. Duis auctor nisl nunc, <br/>quis euismod lorem porttitor<br/> eu. Quisque aliquet
+                    dui a<br/> magna facilisis pulvinar.<br/> Quisque bibendum rutrum <br/>tincidunt.
                 </p>
             </div>
             <div className="read-full-otziv-wrapper">
