@@ -4,13 +4,13 @@ import { Comment } from "../components/comment.component";
 import { Footer } from "../components/footer.component";
 import { Header } from "../components/header.component";
 import "../styles/main.css";
-import Photo from "../img/image_2023-07-24_18-15-16.png"
-import Photo5 from "../img/image_2023-07-24_18-15-33.png"
-import Photo2 from "../img/image_2023-07-24_18-15-39.png"
-import Photo3 from "../img/image_2023-07-24_18-15-46.png"
-import Photo4 from "../img/image_2023-07-24_18-15-53.png"
-import Photo6 from "../img/image_2023-07-24_18-25-14.png"
-import Arrow from "../img/image_2023-07-24_18-23-42.png"
+import Photo from "../img/projects.png"
+import Photo5 from "../img/lection.png"
+import Photo2 from "../img/practice.png"
+import Photo3 from "../img/discard.png"
+import Photo4 from "../img/review.png"
+import Photo6 from "../img/join.png"
+import Arrow from "../img/arrow.png"
 import Vector3 from  "../img/vector-3.svg"
 
 

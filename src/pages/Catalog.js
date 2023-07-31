@@ -3,7 +3,13 @@ import { Card } from "../components/card.component";
 import { Footer } from "../components/footer.component";
 import { Header } from "../components/header.component";
 import "../styles/catalog.css";
-
+import Vector1 from "../img/vector-1.svg"
+import Vector5 from "../img/vector-5.svg"
+import Vector7 from "../img/vector-7.svg"
+import Material from "../img/material-symbols-search.svg"
+import ArrowDown from "../img/ri-arrow-down-s-line.svg"
+import Plus from "../img/ic-baseline-plus.svg"
+import DottedVector from "../img/dotted-vector.svg"
 export const Catalog = () => {
     return (
         <div className="screen">
@@ -17,39 +23,39 @@ export const Catalog = () => {
                 vector="vector-1-3.svg"
             />
             <div className="view">
-                <img className="vector-3" alt="Vector" src="vector-5.svg" />
+                <img className="vector-3" alt="Vector" src={Vector5} />
                 <div className="text-wrapper-8">Main page</div>
-                <img className="vector-4" alt="Vector" src="vector-7.svg" />
+                <img className="vector-4" alt="Vector" src={Vector7} />
                 <div className="text-wrapper-9">Catalog</div>
-                <img className="vector-5" alt="Vector" src="vector-1.svg" />
+                <img className="vector-5" alt="Vector" src={Vector1} />
             </div>
             <div className="frame-19">
                 <h1 className="h-1">Catalog</h1>
                 <div className="frame-20">
                     <div className="frame-21">
                         <div className="frame-22">
-                            <img className="material-symbols" alt="Material symbols" src="material-symbols-search.svg" />
+                            <img className="material-symbols" alt="Material symbols" src={Material} />
                             <div className="text-wrapper-10">Search any project</div>
                         </div>
                         <div className="frame-23">
                             <div className="text-wrapper-11">Language</div>
-                            <img className="img-2" alt="Ri arrow down s line" src="ri-arrow-down-s-line.svg" />
+                            <img className="img-2" alt="Ri arrow down s line" src={ArrowDown} />
                         </div>
                         <div className="frame-23">
                             <div className="text-wrapper-11">Direction</div>
-                            <img className="img-2" alt="Ri arrow down s line" src="image.svg" />
+                            <img className="img-2" alt="Ri arrow down s line" src={ArrowDown} />
                         </div>
                         <div className="frame-23">
                             <div className="text-wrapper-11">Difficulty</div>
-                            <img className="img-2" alt="Ri arrow down s line" src="ri-arrow-down-s-line-2.svg" />
+                            <img className="img-2" alt="Ri arrow down s line" src={ArrowDown} />
                         </div>
                         <div className="frame-23">
                             <div className="text-wrapper-11">Stack include</div>
-                            <img className="img-2" alt="Ri arrow down s line" src="ri-arrow-down-s-line-3.svg" />
+                            <img className="img-2" alt="Ri arrow down s line" src={ArrowDown} />
                         </div>
                         <div className="frame-24">
                             <div className="text-wrapper-12">More</div>
-                            <img className="img-2" alt="Ic baseline plus" src="ic-baseline-plus.svg" />
+                            <img className="img-2" alt="Ic baseline plus" src={Plus} />
                         </div>
                     </div>
                     <div className="frame-wrapper">
@@ -120,7 +126,7 @@ export const Catalog = () => {
                                 riTimeFill="ri-time-fill-7.svg"
                                 simpleIconsSpring="simple-icons-spring-7.svg"
                             />
-                            <img className="vector-5" alt="Vector" src="vector-2-2.svg" />
+                            <img className="vector-5" alt="Vector" src={DottedVector}/>
                             <Card
                                 carbonSkillLevel="carbon-skill-level-8.svg"
                                 className="card-instance"
@@ -187,7 +193,7 @@ export const Catalog = () => {
                                 riTimeFill="ri-time-fill-13.svg"
                                 simpleIconsSpring="simple-icons-spring-13.svg"
                             />
-                            <img className="vector-5" alt="Vector" src="vector-3.svg" />
+                            <img className="vector-5" alt="Vector" src={DottedVector} />
                             <Card
                                 carbonSkillLevel="carbon-skill-level-14.svg"
                                 className="card-instance"
