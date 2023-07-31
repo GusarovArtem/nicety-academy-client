@@ -1,3 +1,14 @@
+
+.body{
+  background: conic-gradient(from 226deg at 119.22% -15.54%,
+  #457551 6.780847012996674deg,
+  #633D80 58.3360880613327deg,
+  #2C2C2C 80.25565266609192deg,
+  #4F7C5A 216.98922872543335deg,
+  #2C3337 264.04611825942993deg,
+  #56396C 332.0770239830017deg);
+
+}
 label {
   display: block;
   margin-top: 10px;
@@ -30,3 +41,4 @@ label {
   -webkit-border-radius: 50%;
   border-radius: 50%;
 }
+

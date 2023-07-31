@@ -1,26 +1,23 @@
 import React, { Component } from "react";
 import { Routes, Route, Link } from "react-router-dom";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "./App.css";
-import "./styles/login-pretty.module.scss";
+// import "bootstrap/dist/css/bootstrap.min.css";
+import "./styles/App.css";
 
 import AuthService from "./services/auth.service";
 
 import Login from "./components/login.component";
 import Register from "./components/register.component";
-import Home from "./components/home.component";
 import Profile from "./components/profile.component";
 import BoardUser from "./components/board-user.component";
 import BoardModerator from "./components/board-moderator.component";
 import BoardAdmin from "./components/board-admin.component";
-import RegForm from "./components/registration-form/registration-form";
-
-
+import Home from "./components/home.component"
+import {MainPage} from "./pages/MainPage"
 
 // import AuthVerify from "./common/auth-verify";
 import EventBus from "./common/EventBus";
-import {Screen} from "./components/registration-form/registration-form";
-
+import {Footer} from "./components/footer.component";
+import {Catalog} from "./pages/Catalog";
 
 class App extends Component {
   constructor(props) {
@@ -134,17 +131,18 @@ class App extends Component {
           )}
         </nav>
 
-        <div className="container mt-3">
+        <div className="body" >
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/home" element={<Home />} />
+            <Route path="/catalog" element={<Catalog/>}/>
             <Route path="/login" element={<Login />} />
-            <Route path="/screen" element={<RegFrom />} />
             <Route path="/register" element={<Register />} />
             <Route path="/profile" element={<Profile />} />
             <Route path="/user" element={<BoardUser />} />
             <Route path="/moderator" element={<BoardModerator />} />
             <Route path="/admin" element={<BoardAdmin />} />
+            <Route path="/footer" element={<Footer/>}/>
+            <Route path="/main" element={<MainPage/>}/>
           </Routes>
         </div>
 

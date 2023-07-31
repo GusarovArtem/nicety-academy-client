@@ -1,5 +1,8 @@
 import React from "react";
-import "./style.css";
+import "../styles/Footer.css";
+import Frame67 from "../img/frame-67.svg"
+import Camera from "../img/ic-baseline-camera.svg"
+import Vector2 from  "../img/vector-2.svg"
 
 export const Footer = ({ className }) => {
     return (
@@ -7,7 +10,7 @@ export const Footer = ({ className }) => {
             <div className="frame">
                 <div className="div">
                     <div className="frame-2">
-                        <img className="ic-baseline-camera" alt="Ic baseline camera" src="ic-baseline-camera.svg" />
+                        <img className="ic-baseline-camera" alt="Ic baseline camera" src={Camera} />
                         <div className="achieve-mastery">Achieve mastery through challenge.</div>
                     </div>
                     <div className="frame-3">
@@ -100,7 +103,7 @@ export const Footer = ({ className }) => {
                     </div>
                 </div>
             </div>
-            <img className="vector" alt="Vector" src="vector-2.svg" />
+            <img className="vector" alt="Vector" src={Vector2} />
             <div className="frame-7">
                 <div className="frame-8">
                     <div className="text-wrapper">@LoremIpsum, Inc</div>
@@ -110,7 +113,7 @@ export const Footer = ({ className }) => {
                     <div className="text-wrapper-5">Terms of Service</div>
                     <div className="text-wrapper-5">About</div>
                 </div>
-                <img className="img" alt="Frame" src="frame-67.svg" />
+                <img className="img" alt="Frame" src={Frame67} />
             </div>
         </div>
     );
