@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/header.css";
+import "../styles/Header.css";
 import Frame18 from "../img/frame-18.svg"
 import Vector1 from "../img/vector-1.svg"
 

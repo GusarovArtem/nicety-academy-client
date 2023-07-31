@@ -3,7 +3,7 @@ import { Card } from "../components/card.component";
 import { Comment } from "../components/comment.component";
 import { Footer } from "../components/footer.component";
 import { Header } from "../components/header.component";
-import "../styles/main.css";
+import "../styles/Main.css";
 import Photo from "../img/projects.png"
 import Photo5 from "../img/lection.png"
 import Photo2 from "../img/practice.png"

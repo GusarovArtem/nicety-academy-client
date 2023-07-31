@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/card.css";
+import "../styles/Card.css";
 import Grommet from  "../img/grommet-icons-waypoint.svg"
 import Time from  "../img/ri-time-fill.svg"
 import Simple from  "../img/simple-icons-spring.svg"

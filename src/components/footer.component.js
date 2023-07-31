@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/footer.css";
+import "../styles/Footer.css";
 import Frame67 from "../img/frame-67.svg"
 import Camera from "../img/ic-baseline-camera.svg"
 import Vector2 from  "../img/vector-2.svg"

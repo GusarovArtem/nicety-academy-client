@@ -2,7 +2,7 @@ import React from "react";
 import { Card } from "../components/card.component";
 import { Footer } from "../components/footer.component";
 import { Header } from "../components/header.component";
-import "../styles/catalog.css";
+import "../styles/Catalog.css";
 import Vector1 from "../img/vector-1.svg"
 import Vector5 from "../img/vector-5.svg"
 import Vector7 from "../img/vector-7.svg"
