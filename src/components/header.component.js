@@ -6,7 +6,7 @@ import Vector1 from "../img/vector-1.svg"
 export const Header = ({ className }) => {
     return (
         <div className={`header ${className}`}>
-            <img className="frame" alt="Frame" src={Frame18} />
+            <img className="logo" alt="Frame" src={Frame18} />
             <div className="text-block">
                 <div className="text-wrapper">Catalog</div>
                 <div className="text-wrapper">Library</div>

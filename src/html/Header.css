@@ -1,0 +1,192 @@
+/* Base styles for all devices */
+@import url("https://fonts.googleapis.com/css2?family=Krona One:wght@400&display=swap");
+
+/*HEADER START*/
+p {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem; /* Use a relative unit for gap */
+    width: 100%; /* Set the header to occupy the full width of the container */
+    padding: 1rem 2%; /* Use relative units for padding */
+    box-sizing: border-box;
+}
+
+.logo {
+    height: fit-content;
+    margin-right: auto; /* Use margin-right:auto to push the logo to the left side */
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem; /* Use a relative unit for gap */
+    width: 100%; /* Set the navbar to occupy the full width of the container */
+    max-width: 710px; /* Limit the maximum width for larger screens */
+    height: 71px;
+    padding: 1rem 2%; /* Use relative units for padding */
+    border-radius: 15px;
+    box-sizing: border-box;
+    background-color: rgba(173, 99, 231, 1);
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+/*HEADER END*/
+
+
+/*GUEST USER START*/
+.buttons-guest {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem; /* Use a relative unit for gap */
+    width: 100%; /* Set the buttons container to occupy the full width of the container */
+    max-width: 350px; /* Limit the maximum width for larger screens */
+    height: fit-content;
+    box-sizing: border-box;
+}
+
+.sign-up-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    width: 160px;
+    height: 100%;
+    border-radius: 15px;
+    background: var(--22, #73FF97);
+    box-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 20px 30px;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 16px;
+    font-family: Krona One, sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.log-in-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 160px;
+    height: 100%;
+    padding: 20px 30px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    color: rgba(240, 240, 240, 1);
+    font-size: 16px;
+    line-height: 16px;
+    font-family: Krona One, sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+/*GUEST USER END*/
+
+/*DYNAMIC PAGE SETTINGS START*/
+
+/* Common styles for .catalog, .library, and .my-journey */
+.catalog,
+.library,
+.my-journey {
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    line-height: 16px;
+    font-family: Krona One, sans-serif;
+    font-weight: 400;
+}
+
+/* Styles for larger screens (e.g., desktops) */
+@media screen and (min-width: 1440px) {
+    .header {
+        padding: 1rem 10%; /* Adjust padding for larger screens */
+    }
+}
+
+/* Styles for medium-sized screens (e.g., tablets) */
+@media screen and (max-width: 1024px) {
+    .header {
+        padding: 1rem 4%; /* Adjust padding for medium-sized screens */
+    }
+}
+
+/* Styles for smaller screens (e.g., smartphones) */
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column; /* Switch to a column layout for smaller screens */
+    }
+}
+/*DYNAMIC PAGE SETTINGS END*/
+
+/*REGISTERED USER START*/
+
+
+.buttons-registered {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    width: 350px;
+    height: fit-content;
+    box-sizing: border-box;
+}
+.notification {
+    gap: 10px;
+    width: 70px;
+    height: 100%;
+}
+
+.username {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 70px;
+    height: 100%;
+    padding: 20px 30px;
+    border-radius: 83px;
+    box-sizing: border-box;
+    background-color: rgba(94, 17, 154, 1);
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+}
+.name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgba(240, 240, 240, 1);
+    font-size: 16px;
+    line-height: 16px;
+    font-family: Krona One, sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.menu-button {
+    border-radius: 15px;
+    background: var(--menu-button-color, #AD63E7);
+    box-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.25);
+    gap: 10px;
+    width: 70px;
+    height: 100%;
+
+}
+.menu-img {
+    width: auto;
+    height: auto;
+}
+/*REGISTERED USER END*/
