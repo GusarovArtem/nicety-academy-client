@@ -1,8 +1,9 @@
 import React from "react";
 import "../styles/Footer.css";
-import Frame67 from "../img/frame-67.svg"
-import Camera from "../img/ic-baseline-camera.svg"
-import Vector2 from "../img/split-line.svg"
+import Social from "../img/frame-67.svg"
+import Logo from "../img/ic-baseline-camera.svg"
+import Line from "../img/split-line.svg"
+
 
 export const Footer = ({ className }) => {
     return (
@@ -10,7 +11,7 @@ export const Footer = ({ className }) => {
             <div className="frame">
                 <div className="language-block">
                     <div className="logo">
-                        <img className="logo-img" alt="Logo" src={Camera} />
+                        <img className="logo-img" alt="Logo" src={Logo} />
                         <div className="tagline">Achieve mastery through challenge.</div>
                     </div>
                     <div className="top-languages">
@@ -19,59 +20,59 @@ export const Footer = ({ className }) => {
                             <div className="language-wrapper">
                                 <div className="language-name">C</div>
                             </div>
-                            <div className="div-wrapper">
-                                <div className="text-wrapper-2">C#</div>
+                            <div className="language-wrapper">
+                                <div className="language-name">C#</div>
                             </div>
-                            <div className="div-wrapper">
-                                <div className="text-wrapper-2">C++</div>
+                            <div className="language-wrapper">
+                                <div className="language-name">C++</div>
                             </div>
-                            <div className="div-wrapper">
-                                <div className="text-wrapper-2">Dart</div>
+                            <div className="language-wrapper">
+                                <div className="language-name">Dart</div>
                             </div>
-                            <div className="div-wrapper">
-                                <div className="text-wrapper-2">Go</div>
+                            <div className="language-wrapper">
+                                <div className="language-name">Go</div>
                             </div>
-                            <div className="div-wrapper">
-                                <div className="text-wrapper-2">Haskell</div>
+                            <div className="language-wrapper">
+                                <div className="language-name">Haskell</div>
                             </div>
-                            <div className="div-wrapper">
-                                <div className="text-wrapper-2">Java</div>
+                            <div className="language-wrapper">
+                                <div className="language-name">Java</div>
                             </div>
-                            <div className="div-wrapper">
-                                <div className="text-wrapper-2">JavaScript</div>
+                            <div className="language-wrapper">
+                                <div className="language-name">JavaScript</div>
                             </div>
-                            <div className="div-wrapper">
-                                <div className="text-wrapper-2">Kotlin</div>
+                            <div className="language-wrapper">
+                                <div className="language-name">Kotlin</div>
                             </div>
-                            <div className="div-wrapper">
-                                <div className="text-wrapper-2">Lua</div>
+                            <div className="language-wrapper">
+                                <div className="language-name">Lua</div>
                             </div>
-                            <div className="div-wrapper">
-                                <div className="text-wrapper-2">PHP</div>
+                            <div className="language-wrapper">
+                                <div className="language-name">PHP</div>
                             </div>
-                            <div className="div-wrapper">
-                                <div className="text-wrapper-2">Python</div>
+                            <div className="language-wrapper">
+                                <div className="language-name">Python</div>
                             </div>
-                            <div className="div-wrapper">
-                                <div className="text-wrapper-2">R</div>
+                            <div className="language-wrapper">
+                                <div className="language-name">R</div>
                             </div>
-                            <div className="div-wrapper">
-                                <div className="text-wrapper-2">Ruby</div>
+                            <div className="language-wrapper">
+                                <div className="language-name">Ruby</div>
                             </div>
-                            <div className="div-wrapper">
-                                <div className="text-wrapper-2">SQL</div>
+                            <div className="language-wrapper">
+                                <div className="language-name">SQL</div>
                             </div>
-                            <div className="div-wrapper">
-                                <div className="text-wrapper-2">Scala</div>
+                            <div className="language-wrapper">
+                                <div className="language-name">Scala</div>
                             </div>
-                            <div className="div-wrapper">
-                                <div className="text-wrapper-2">Solidity</div>
+                            <div className="language-wrapper">
+                                <div className="language-name">Solidity</div>
                             </div>
-                            <div className="div-wrapper">
-                                <div className="text-wrapper-2">Swift</div>
+                            <div className="language-wrapper">
+                                <div className="language-name">Swift</div>
                             </div>
-                            <div className="div-wrapper">
-                                <div className="text-wrapper-2">TypeScript</div>
+                            <div className="language-wrapper">
+                                <div className="language-name">TypeScript</div>
                             </div>
                         </div>
                     </div>
@@ -103,7 +104,7 @@ export const Footer = ({ className }) => {
                     </div>
                 </div>
             </div>
-            <img className="split-line" alt="split-line" src="../img/split-line.svg" />
+            <img className="split-line" alt="split-line" src={Line} />
             <div className="copyright-wrapper">
                 <div className="copyright">
                     <div className="text">@LoremIpsum, Inc</div>
@@ -113,7 +114,7 @@ export const Footer = ({ className }) => {
                     <div className="copyright-item">Terms of Service</div>
                     <div className="copyright-item">About</div>
                 </div>
-                <img className="social-media" alt="social-media" src={Frame67} />
+                <img className="social-media" alt="social-media" src={Social} />
             </div>
         </div>
     );
