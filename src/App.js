@@ -158,12 +158,15 @@
 
 import React from 'react';
 import HeaderGuest from './html/Header.guest';
+import {MainPage} from "./pages/MainPage";
+import {Catalog} from "./pages/Catalog";
+import {Footer} from "./components/footer.component";
 
 
 const App = () => {
     return (
         <div>
-            <HeaderGuest />
+            <Footer />
             {/* Other components and content of your app */}
         </div>
     );

@@ -2,22 +2,22 @@ import React from "react";
 import "../styles/Footer.css";
 import Frame67 from "../img/frame-67.svg"
 import Camera from "../img/ic-baseline-camera.svg"
-import Vector2 from  "../img/vector-2.svg"
+import Vector2 from "../img/split-line.svg"
 
 export const Footer = ({ className }) => {
     return (
         <div className={`footer ${className}`}>
             <div className="frame">
-                <div className="div">
-                    <div className="frame-2">
-                        <img className="ic-baseline-camera" alt="Ic baseline camera" src={Camera} />
-                        <div className="achieve-mastery">Achieve mastery through challenge.</div>
+                <div className="language-block">
+                    <div className="logo">
+                        <img className="logo-img" alt="Logo" src={Camera} />
+                        <div className="tagline">Achieve mastery through challenge.</div>
                     </div>
-                    <div className="frame-3">
-                        <div className="text-wrapper">Top languages</div>
-                        <div className="frame-4">
-                            <div className="div-wrapper">
-                                <div className="text-wrapper-2">C</div>
+                    <div className="top-languages">
+                        <div className="text">Top languages</div>
+                        <div className="languages-list">
+                            <div className="language-wrapper">
+                                <div className="language-name">C</div>
                             </div>
                             <div className="div-wrapper">
                                 <div className="text-wrapper-2">C#</div>
@@ -76,44 +76,44 @@ export const Footer = ({ className }) => {
                         </div>
                     </div>
                 </div>
-                <div className="frame-5">
-                    <div className="frame-6">
-                        <div className="text-wrapper-3">DOJO</div>
-                        <div className="text-wrapper-4">Kata Library</div>
-                        <div className="text-wrapper-4">Leaderboard</div>
-                        <div className="text-wrapper-4">Docs</div>
+                <div className="menu-block">
+                    <div className="category">
+                        <div className="category-name">DOJO</div>
+                        <div className="item">Kata Library</div>
+                        <div className="item">Leaderboard</div>
+                        <div className="item">Docs</div>
                     </div>
-                    <div className="frame-6">
-                        <div className="text-wrapper-3">DEVELOPERS</div>
-                        <div className="text-wrapper-4">Kata Library</div>
-                        <div className="text-wrapper-4">Leaderboard</div>
-                        <div className="text-wrapper-4">Docs</div>
+                    <div className="category">
+                        <div className="category-name">DEVELOPERS</div>
+                        <div className="item">Kata Library</div>
+                        <div className="item">Leaderboard</div>
+                        <div className="item">Docs</div>
                     </div>
-                    <div className="frame-6">
-                        <div className="text-wrapper-3">EDUCATORS</div>
-                        <div className="text-wrapper-4">Kata Library</div>
-                        <div className="text-wrapper-4">Leaderboard</div>
-                        <div className="text-wrapper-4">Docs</div>
+                    <div className="category">
+                        <div className="category-name">EDUCATORS</div>
+                        <div className="item">Kata Library</div>
+                        <div className="item">Leaderboard</div>
+                        <div className="item">Docs</div>
                     </div>
-                    <div className="frame-6">
-                        <div className="text-wrapper-3">COMPANIES</div>
-                        <div className="text-wrapper-4">Kata Library</div>
-                        <div className="text-wrapper-4">Leaderboard</div>
-                        <div className="text-wrapper-4">Docs</div>
+                    <div className="category">
+                        <div className="category-name">COMPANIES</div>
+                        <div className="item">Kata Library</div>
+                        <div className="item">Leaderboard</div>
+                        <div className="item">Docs</div>
                     </div>
                 </div>
             </div>
-            <img className="vector" alt="Vector" src={Vector2} />
-            <div className="frame-7">
-                <div className="frame-8">
-                    <div className="text-wrapper">@LoremIpsum, Inc</div>
+            <img className="split-line" alt="split-line" src="../img/split-line.svg" />
+            <div className="copyright-wrapper">
+                <div className="copyright">
+                    <div className="text">@LoremIpsum, Inc</div>
                     <div className="powered-by">Powered by LoremIpsum</div>
-                    <div className="text-wrapper-5">API</div>
-                    <div className="text-wrapper-5">Privacy Policy</div>
-                    <div className="text-wrapper-5">Terms of Service</div>
-                    <div className="text-wrapper-5">About</div>
+                    <div className="copyright-item">API</div>
+                    <div className="copyright-item">Privacy Policy</div>
+                    <div className="copyright-item">Terms of Service</div>
+                    <div className="copyright-item">About</div>
                 </div>
-                <img className="img" alt="Frame" src={Frame67} />
+                <img className="social-media" alt="social-media" src={Frame67} />
             </div>
         </div>
     );

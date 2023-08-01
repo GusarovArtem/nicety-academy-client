@@ -96,41 +96,6 @@ p {
 }
 /*GUEST USER END*/
 
-/*DYNAMIC PAGE SETTINGS START*/
-
-/* Common styles for .catalog, .library, and .my-journey */
-.catalog,
-.library,
-.my-journey {
-    color: rgba(255, 255, 255, 1);
-    font-size: 16px;
-    line-height: 16px;
-    font-family: Krona One, sans-serif;
-    font-weight: 400;
-}
-
-/* Styles for larger screens (e.g., desktops) */
-@media screen and (min-width: 1440px) {
-    .header {
-        padding: 1rem 10%; /* Adjust padding for larger screens */
-    }
-}
-
-/* Styles for medium-sized screens (e.g., tablets) */
-@media screen and (max-width: 1024px) {
-    .header {
-        padding: 1rem 4%; /* Adjust padding for medium-sized screens */
-    }
-}
-
-/* Styles for smaller screens (e.g., smartphones) */
-@media screen and (max-width: 768px) {
-    .header {
-        flex-direction: column; /* Switch to a column layout for smaller screens */
-    }
-}
-/*DYNAMIC PAGE SETTINGS END*/
-
 /*REGISTERED USER START*/
 
 
@@ -190,3 +155,39 @@ p {
     height: auto;
 }
 /*REGISTERED USER END*/
+
+/*DYNAMIC PAGE SETTINGS START*/
+
+/* Common styles for .catalog, .library, and .my-journey */
+.catalog,
+.library,
+.my-journey {
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    line-height: 16px;
+    font-family: Krona One, sans-serif;
+    font-weight: 400;
+}
+
+/* Styles for larger screens (e.g., desktops) */
+@media screen and (min-width: 1440px) {
+    .header {
+        padding: 1rem 10%; /* Adjust padding for larger screens */
+    }
+}
+
+/* Styles for medium-sized screens (e.g., tablets) */
+@media screen and (max-width: 1024px) {
+    .header {
+        padding: 1rem 4%; /* Adjust padding for medium-sized screens */
+    }
+}
+
+/* Styles for smaller screens (e.g., smartphones) */
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column; /* Switch to a column layout for smaller screens */
+    }
+}
+/*DYNAMIC PAGE SETTINGS END*/
+
