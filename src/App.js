@@ -157,16 +157,17 @@
 // export default App;
 
 import React from 'react';
-import HeaderGuest from './html/Header.guest';
+import HeaderGuest from './html/Header.registred';
 import {MainPage} from "./pages/MainPage";
 import {Catalog} from "./pages/Catalog";
 import {Footer} from "./components/footer.component";
+import HeaderRegistered from "./html/Header.registred";
 
 
 const App = () => {
     return (
         <div>
-            <Footer />
+            <HeaderRegistered/>
             {/* Other components and content of your app */}
         </div>
     );

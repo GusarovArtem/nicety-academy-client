@@ -1,6 +1,5 @@
 import React from 'react';
-import './Header.css'; // Assuming you have the CSS file named "HeaderGuest.css" in the same folder
-
+import '../html/Header.css'; // Assuming you have the CSS file in the appropriate location
 
 const HeaderGuest = () => {
     return (
@@ -11,17 +10,13 @@ const HeaderGuest = () => {
                 className="logo"
             />
             <div className="navbar">
-                <p className="catalog">Catalog</p>
-                <p className="library">Library</p>
-                <p className="my-journey">My Journey</p>
+                <button className="catalog">Catalog</button>
+                <button className="library">Library</button>
+                <button className="my-journey">My Journey</button>
             </div>
-            <div className="buttons">
-                <div className="sign-up-button" type="button">
-                    <p>Sign Up</p>
-                </div>
-                <div className="log-in-button" type="button">
-                    <p>Log In</p>
-                </div>
+            <div className="buttons-guest">
+                <button className="sign-up-button" type="button">Sign Up</button>
+                <button className="log-in-button" type="button">Log In</button>
             </div>
         </div>
     );
