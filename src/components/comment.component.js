@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Comment.css";
+import "../refactor/styles/Comment.css";
 
 export const Comment = ({ className }) => {
     return (

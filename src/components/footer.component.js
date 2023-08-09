@@ -1,8 +1,8 @@
 import React from "react";
-import "../styles/Footer.css";
-import Social from "../img/frame-67.svg"
-import Logo from "../img/ic-baseline-camera.svg"
-import Line from "../img/split-line.svg"
+import "../assets/styles/Footer.css";
+import Social from "../assets/img/footer/social-media.svg"
+import Logo from "../assets/img/footer/logo.svg"
+import Line from "../assets/img/footer/split-line.svg"
 
 
 export const Footer = ({ className }) => {

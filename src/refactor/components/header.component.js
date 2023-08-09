@@ -1,7 +1,7 @@
 import React from "react";
-import "../styles/Header.css";
-import Frame18 from "../img/frame-18.svg"
-import Vector1 from "../img/vector-1.svg"
+import "../styles/Header-old.css";
+import Frame18 from "../../assets/img/frame-18.svg"
+import Vector1 from "../../assets/img/catalog/vector-1.svg"
 
 export const Header = ({ className }) => {
     return (

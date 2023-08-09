@@ -1,11 +1,12 @@
 import React from 'react';
-import '../html/Header.css'; // Assuming you have the CSS file in the appropriate location
+import '../assets/styles/Header.css'; // Assuming you have the CSS file in the appropriate location
+import Logo from "../assets/img/header/header-logo.svg";
 
 const HeaderGuest = () => {
     return (
         <div className="header">
             <img
-                src="../img/header-logo.svg"
+                src={Logo}
                 alt="Not Found"
                 className="logo"
             />

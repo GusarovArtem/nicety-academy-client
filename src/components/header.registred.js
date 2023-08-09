@@ -1,11 +1,13 @@
 import React from 'react';
-import '../html/Header.css';
+import '../assets/styles/Header.css';
+import Logo from "../assets/img/header/header-logo.svg";
+
 
 const HeaderRegistered = () => {
     return (
         <div className="header">
             <img
-                src="../img/header-logo.svg"
+                src={Logo}
                 alt="Not Found"
                 className="logo"
             />
@@ -17,7 +19,7 @@ const HeaderRegistered = () => {
             <div className="buttons-registered">
                 <button className="notification">
                     <img
-                        src="../img/notification.svg"
+                        src="../assets/img/notification.svg"
                         alt="Not Found"
                     />
                 </button>
@@ -26,7 +28,7 @@ const HeaderRegistered = () => {
                 </button>
                 <button className="menu-button">
                     <img
-                        src="../img/menu.svg"
+                        src="../assets/img/menu.svg"
                         alt="Not Found"
                         className="menu-img"
                     />

@@ -1,12 +1,12 @@
 import React from "react";
-import "../styles/Card.css";
-import Grommet from  "../img/grommet-icons-waypoint.svg"
-import Time from  "../img/ri-time-fill.svg"
-import Simple from  "../img/simple-icons-spring.svg"
-import Stack from  "../img/ph-stack.svg"
-import Device from  "../img/mingcute-device-fill.svg"
-import Skill from  "../img/carbon-skill-level.svg"
-import Money from  "../img/material-symbols-attach-money.svg"
+import "../assets/styles/Card.css";
+import Grommet from "../assets/img/card/grommet-icons-waypoint.svg"
+import Time from "../assets/img/card/ri-time-fill.svg"
+import Simple from "../assets/img/card/simple-icons-spring.svg"
+import Stack from "../assets/img/card/ph-stack.svg"
+import Device from "../assets/img/card/mingcute-device-fill.svg"
+import Skill from "../assets/img/card/carbon-skill-level.svg"
+import Money from "../assets/img/card/material-symbols-attach-money.svg"
 export const Card = ({ className }) => {
     return (
         <div className={`card ${className}`}>
@@ -15,12 +15,12 @@ export const Card = ({ className }) => {
                     <img className="simple-icons-spring" alt="Simple icons spring" src={Simple} />
                     <div className="restapi-spring">RestAPI - Spring</div>
                 </div>
-                <div className="lorem-ipsum-dolor-wrapper">
-                    <p className="lorem-ipsum-dolor">
+                <div className="description">
+                    <p className="description-text">
                         Lorem ipsum dolor sit amet,<br/> consectetur adipiscing elit. <br/> Aliquam arcu ligula, vehicula a <br/> placerat a, fermentum et arcu.
                     </p>
                 </div>
-                <div className="frame-2">
+                <div className="language">
 
                         <div className="frame-4">
                             <img className="img" alt="Ph stack" src={Stack} />
@@ -31,7 +31,7 @@ export const Card = ({ className }) => {
                         <div className="text-wrapper">Web</div>
                     </div>
                 </div>
-                <div className="frame-2">
+                <div className="level">
                     <div className="frame-3">
                         <div className="frame-4">
                             <img className="img" alt="Carbon skill level" src={Skill} />

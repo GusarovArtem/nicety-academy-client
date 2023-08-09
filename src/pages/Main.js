@@ -2,21 +2,21 @@ import React from "react";
 import { Card } from "../components/card.component";
 import { Comment } from "../components/comment.component";
 import { Footer } from "../components/footer.component";
-import { Header } from "../components/header.component";
-import "../styles/Main.css";
-import Photo from "../img/projects.png"
-import Photo5 from "../img/lection.png"
-import Photo2 from "../img/practice.png"
-import Photo3 from "../img/discard.png"
-import Photo4 from "../img/review.png"
-import Photo6 from "../img/join.png"
-import Arrow from "../img/arrow.png"
-import Vector3 from  "../img/vector-3.svg"
+import { Header } from "../refactor/components/header.component";
+import "../refactor/styles/Main.css";
+import Photo from "../assets/img/main/projects.png"
+import Photo5 from "../assets/img/main/lection.png"
+import Photo2 from "../assets/img/main/practice.png"
+import Photo3 from "../assets/img/main/discard.png"
+import Photo4 from "../assets/img/main/review.png"
+import Photo6 from "../assets/img/main/join.png"
+import Arrow from "../assets/img/main/arrow.png"
+import Vector3 from "../assets/img/main/vector-3.svg"
 
 
 
 
-export const MainPage = () => {
+export const Main = () => {
     return (
         <div className="screen">
             <Header
